@@ -1,0 +1,156 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: black;
+}
+h3 {
+  color: #3498db;
+}
+h1 {
+  color: #3498db;
+}
+p {
+ color: white;
+}
+a {
+ color: white;
+ font-size: 18px;
+}
+p {
+ color: cyan;
+}
+h4 {
+   color:#3498db;
+   text-align: center;
+   font-size: 35px;
+ }
+.arabic {
+ margin-left: 50px;
+}
+.api-info {
+  border: 0px solid rgba(255, 0, 0, 0); 
+box-sizing: border-box;
+animation: lightDrop 5s linear infinite; 
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.thanks {
+  animation: tanVir 5s linear infinite;
+  border-radius: 5px;
+}
+.tnx_txt {
+  color: cyan;
+  text-align: center;
+  padding-top: 10px;
+  animation: colorChange 1s infinite;
+}
+.tnx_p {
+  color: lime;
+  text-align: center;
+  padding-bottom: 20px;
+  animation: colorChange 5s infinite;
+}
+.dropdown-btn {
+font-size: 15px;
+text-align: center;
+text-decoration: none;
+border: none;
+padding: 10px;
+margin-top: 10px;
+border: 1px solid #3498db;
+color: #3498db;
+background-color: black;
+box-shadow: 0 0 10px 
+rgba(52, 152, 219, 0.7);
+transition: box-shadow 0.3s 
+ease-in-out;
+cursor: pointer;
+position: relative;
+right: 35px;
+display: inline-block;
+}
+.copy-button {
+position: relative;
+right: 10px;
+margin-top: 10px;
+cursor: pointer;
+background-color: #3498db;
+color: white;
+padding: 5px 130px;
+border: none;
+border-radius: 0px;
+margin-left: 10px;
+box-shadow: 0 0 10px 
+rgba(52, 152, 219, 0.7);
+
+}
+.dropdown-btn::after {
+  content: ""; 
+  position: absolute;
+  right: 1px;
+  top: 50%;
+  transform: translateY(-50%);
+ }
+.dropdown {
+  display: none;
+  background-color: black;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+@keyframes lightDrop {
+0% {
+box-shadow: 0 0 5px 
+rgba(255, 0, 0, 0.7),
+            0 0 10px 
+rgba(255, 0, 0, 0.7),
+            0 0 15px 
+rgba(255, 0, 0, 0.7);
+border: 2px solid #FF0000;
+}
+50% {
+box-shadow: 0 0 5px 
+rgba(0, 255, 0, 0.7),
+            0 0 10px 
+rgba(0, 255, 0, 0.7),
+            0 0 15px 
+rgba(0, 255, 0, 0.7);
+border: 2px solid lime;
+}
+100% {
+box-shadow: 0 0 5px 
+rgba(0, 0, 255,0.7),
+            0 0 10px 
+rgba(0, 0, 255, 0.7),
+            0 0 15px 
+rgba(0, 0, 255, 0.7);
+border: 2px solid cyan;
+}
+}
+
+@keyframes colorChange {
+0% {
+color: #FF0000;
+}
+50% {
+color: lime;
+}
+100% {
+color: cyan;
+}
+}
+@keyframes tanVir {
+0% {
+border: 2px solid #FF0000;
+}
+
+50% {
+border: 2px solid lime;
+}
+
+100% {
+border: 2px solid cyan;
+}
+}
