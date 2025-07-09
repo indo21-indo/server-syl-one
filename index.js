@@ -33,9 +33,9 @@ var urllofi = "https://its.xan-xunder-t4n.repl.co/lofi/";
 var EM = [ '⭐', '⭐⭐', '⭐⭐⭐', '⭐⭐⭐⭐', '⭐⭐⭐⭐⭐'];
 var E = EM[Math.floor(Math.random() * EM.length)];
 //===============[ SYNC VIDEO ]===============\\
-const islamic = fs.readdirSync(__dirname + '/ISLAM/');
-const gazzal = fs.readdirSync(__dirname + '/GAZZAL/audio/');
-const lofi = fs.readdirSync(__dirname + '/LOFI/video/');
+const islamic = fs.readdirSync(__dirname + '/database/');
+const gazzal = fs.readdirSync(__dirname + '/database/');
+const lofi = fs.readdirSync(__dirname + '/database/');
 //===============[ SYNC FILE ]===============\\
 const quran = fs2.readFileSync(__dirname + '/database/quran.txt', 'utf-8').split('\n');
 const story = fs2.readFileSync(__dirname + '/database/story.txt', 'utf-8').split('\n');
