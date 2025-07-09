@@ -37,12 +37,12 @@ const islamic = fs.readdirSync(__dirname + '/ISLAM/');
 const gazzal = fs.readdirSync(__dirname + '/GAZZAL/audio/');
 const lofi = fs.readdirSync(__dirname + '/LOFI/video/');
 //===============[ SYNC FILE ]===============\\
-const quran = fs2.readFileSync(__dirname + '/database/TANVIR-6X/quran.txt', 'utf-8').split('\n');
-const story = fs2.readFileSync(__dirname + '/database/RX-PAVEL/story.txt', 'utf-8').split('\n');
-const couple = fs2.readFileSync(__dirname + '/database/TANVIR-TAMIM/couple.txt', 'utf-8').split('\n');
-const sad = fs2.readFileSync(__dirname + '/database/RX-PAVEL/sad.txt', 'utf-8').split('\n');
-const hot = fs2.readFileSync(__dirname + '/database/RX-PAVEL/hot.txt', 'utf-8').split('\n');
-const lyrics = fs2.readFileSync(__dirname + '/database/TANVIR-TAMIM/lyrics.txt', 'utf-8').split('\n');
+const quran = fs2.readFileSync(__dirname + '/database/quran.txt', 'utf-8').split('\n');
+const story = fs2.readFileSync(__dirname + '/database/story.txt', 'utf-8').split('\n');
+const couple = fs2.readFileSync(__dirname + '/database/couple.txt', 'utf-8').split('\n');
+const sad = fs2.readFileSync(__dirname + '/database/sad.txt', 'utf-8').split('\n');
+const hot = fs2.readFileSync(__dirname + '/database/hot.txt', 'utf-8').split('\n');
+const lyrics = fs2.readFileSync(__dirname + '/database/lyrics.txt', 'utf-8').split('\n');
 //===============[ FUNCTION ]===============\\
 function getislam() {
   let isvid = islamic[Math.floor(Math.random() * islamic.length)];
